@@ -1,0 +1,20 @@
+name: network_scanner
+description: A simple Flutter desktop LAN scanner
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  yaml: ^3.1.2
+  network_tools: ^3.2.7
+  network_info_plus: ^5.0.3
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/keywords.yaml
